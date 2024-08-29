@@ -1,5 +1,5 @@
 import "./globals.css";
-import { poppins , fixture } from "@/helper/fonts";
+import { poppins , fixture ,rethinkSans,inter } from "@/helper/fonts";
 export const metadata = {
   title: "Two Cat",
   description:
@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${poppins.variable} ${fixture.variable} font-sans`}
+      className={`${poppins.variable} ${fixture.variable} ${rethinkSans.variable} ${inter.variable} font-sans`}
     >
       <body>
           <div className="relative z-10">{children}</div>

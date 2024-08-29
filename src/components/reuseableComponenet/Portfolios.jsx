@@ -12,10 +12,10 @@ const Portfolios = () => {
       }}
     >
       <Container>
-      <div className=" w-full max-w-full mx-auto rounded-2xl">
+      <div className="w-full max-w-full mx-auto rounded-2xl">
         <div className="relative flex flex-col items-center justify-center w-full  px-4 mb-10 ">
-          <h2 className="text-2xl md:text-[41px] mb-4 text-center font-semibold text-white leading-[49px] md:leading-[49px]  w-full max-w-3xl">
-            <span className="flex items-center justify-center">
+          <h2 className="text-2xl md:text-[41px] mb-4 text-center font-fixture  text-white leading-[49px] md:leading-[49px]  w-full max-w-3xl">
+            <span className="flex items-center justify-center font-fixture">
               Discover Our
               <svg
                 width={45}
@@ -34,12 +34,13 @@ const Portfolios = () => {
             Success Stories
           </h2>
           
-          <div className="text-center font-poppins text-[#F8F8F8] mt-4 md:mt-6 text-base md:text-[22px] leading-6 md:leading-[27px] max-w-3xl">
+          <div className="text-center font-poppins text-[#F8F8F8] mt-4 md:mt-6 text-base md:text-[18px] leading-6 md:leading-[27px] max-w-3xl">
             Explore our curated collection of successful projects.
           </div>
           <div className="absolute right-0">
+        
             <Image
-              className="rotate-[486.46deg] w-60 mx-auto"
+              className="rotate-[486.46deg] w-60 mx-auto hidden md:block"
               src="/images/hero-bottom-line.png"
               alt="Hero Bottom Line"
               width={100}

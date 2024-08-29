@@ -14,44 +14,44 @@ const Footer = () => {
               src="/images/Logo.png"
               className="w-[168px] h-[102px]"
             />
-            <p className="mt-[44.53px] text-[18px] w-[50%] leading-[27px] font-normal font-inter">
+            <p className="mt-[44.53px] text-[18px] w-[60%] leading-[27px] font-normal font-inter">
               Stay updated with the latest trends and insights in the design
               industry.
             </p>
           </div>
           {/* Quick Links */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left md:mr-10 mb-6 md:mb-0">
-            <h4 className="text-[23.68px] leading-[28.42px] font-semibold">
+            <h4 className="text-[23.68px] leading-[28.42px] font-semibold font-fixture">
               Quick Links
             </h4>
             <ul className="mt-4 space-y-3">
               <li>
-                <a href="#" className="text-[#E9E8E8] hover:text-primary">
+                <a href="#" className="text-[#E9E8E8] hover:text-primary font-poppins">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="text-[#E9E8E8] hover:text-primary">
+                <a href="#" className="text-[#E9E8E8] hover:text-primary font-poppins">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="text-[#E9E8E8] hover:text-primary">
+                <a href="#" className="text-[#E9E8E8] hover:text-primary font-poppins">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#" className="text-[#E9E8E8] hover:text-primary">
+                <a href="#" className="text-[#E9E8E8] hover:text-primary font-poppins">
                   Portfolio
                 </a>
               </li>
               <li>
-                <a href="#" className="text-[#E9E8E8] hover:text-primary">
+                <a href="#" className="text-[#E9E8E8] hover:text-primary font-poppins">
                   Testimonials
                 </a>
               </li>
               <li>
-                <a href="#" className="text-[#E9E8E8] hover:text-primary">
+                <a href="#" className="text-[#E9E8E8] hover:text-primary font-poppins">
                   Contact
                 </a>
               </li>
@@ -59,32 +59,32 @@ const Footer = () => {
           </div>
           {/* Services */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left md:mr-10 mb-6 md:mb-0">
-            <h4 className="text-[23.68px] leading-[28.42px] font-semibold">
+            <h4 className="text-[23.68px] leading-[28.42px] font-semibold font-fixture">
               Services
             </h4>
             <ul className="mt-4 space-y-3">
               <li>
-                <a href="#" className="text-[#E9E8E8] hover:text-primary">
+                <a href="#" className="text-[#E9E8E8] hover:text-primary font-poppins">
                   Website Design
                 </a>
               </li>
               <li>
-                <a href="#" className="text-[#E9E8E8] hover:text-primary">
+                <a href="#" className="text-[#E9E8E8] hover:text-primary font-poppins">
                   Website Development
                 </a>
               </li>
               <li>
-                <a href="#" className="text-[#E9E8E8] hover:text-primary">
+                <a href="#" className="text-[#E9E8E8] hover:text-primary font-poppins">
                   Mascot Logo
                 </a>
               </li>
               <li>
-                <a href="#" className="text-[#E9E8E8] hover:text-primary">
+                <a href="#" className="text-[#E9E8E8] hover:text-primary font-poppins">
                   Emblem Logos
                 </a>
               </li>
               <li>
-                <a href="#" className="text-[#E9E8E8] hover:text-primary">
+                <a href="#" className="text-[#E9E8E8] hover:text-primary font-poppins">
                   Graphic Design
                 </a>
               </li>
@@ -92,10 +92,10 @@ const Footer = () => {
           </div>
           {/* Social Media & Contact Info */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <h4 className="text-[23.68px] leading-[28.42px] font-semibold mb-2">
+            <h4 className="text-[23.68px] leading-[28.42px] font-semibold mb-2 font-fixture">
               Social Media
             </h4>
-            <div className="flex space-x-4 mb-6 md:mb-10 justify-center">
+            <div className="flex space-x-4 mb-6 md:mb-10 py-10 justify-center">
               <a href="#" className="bg-[#22A8C6] rounded-full p-2 text-white">
                 <svg
                   fill="currentColor"
@@ -157,7 +157,7 @@ const Footer = () => {
                   alt="Phone Icon"
                   className="w-5 h-5"
                 />
-                <span>(607) 555-0101</span>
+                <span className="font-poppins">(607) 555-0101</span>
               </div>
               <div className="flex items-center space-x-2">
                 <img
@@ -165,15 +165,15 @@ const Footer = () => {
                   alt="Email Icon"
                   className="w-5 h-5"
                 />
-                <span>contact@info.com</span>
+                <span className="font-poppins">contact@info.com</span>
               </div>
             </div>
           </div>
         </div>
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center mt-8">
-          <div className="text-white font-poppins font-normal text-[18px] leading-[32.5px] text-center md:text-left">
+          <div className="text-white font-poppins font-normal  text-[18px] leading-[32.5px] text-center md:text-left">
             © Copyright 2024, All Rights Reserved By
-            <a href="#" className="text-[#22A8C6] hover:underline">
+            <a href="#" className="text-[#22A8C6] hover:underline font-poppins">
               Two Cat Designs
             </a>
           </div>

@@ -9,8 +9,8 @@ const Contact = () => {
     >
       <Container>
         <div className="flex flex-col lg:py-10 lg:mt-10 md:flex-row md:justify-between sm:mt-6 sm:px-2 items-center">
-          <main className="flex flex-col items-start justify-center text-left w-full lg:max-w-[50%]">
-            <h3 className="text-white Fixture font-semibold text-[8vw] sm:text-[56px] leading-[8vw] sm:leading-[56px] tracking-[-0.82px] mb-[7px]">
+          <main className="flex flex-col pt-10 items-start justify-center text-left w-full lg:max-w-[50%]">
+            <h3 className="text-white Fixture font-semibold font-fixture text-[8vw] sm:text-[56px] leading-[8vw] sm:leading-[56px] tracking-[-0.82px] mb-[7px]">
               <span>
                 Let's start a
                 <img
@@ -39,7 +39,7 @@ const Contact = () => {
           {/* Form Section */}
           <section className="w-full lg:max-w-[50%] text-left px-4 sm:px-6 md:px-8 mt-8 md:mt-0">
             <div className="mb-6">
-              <h4 className="text-white text-[20px] sm:text-[24px] leading-[24px] sm:leading-[28px] font-semibold">
+              <h4 className="text-white font-fixture text-[20px] sm:text-[24px] leading-[24px] sm:leading-[28px] font-semibold">
                 Send us a Message
               </h4>
             </div>
@@ -47,29 +47,29 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="First Name*"
-                className="w-full h-[50px] sm:h-[60px] md:h-[70px] rounded-[20px] md:rounded-[30px] border border-white px-[20px] md:px-[26px] bg-transparent text-white placeholder-white "
+                className="w-full font-inter h-[50px] sm:h-[60px] md:h-[70px] rounded-[20px] md:rounded-[30px] border border-white px-[20px] md:px-[26px] bg-transparent text-white placeholder-white "
                 required=""
               />
               <input
                 type="email"
                 placeholder="Your Email address*"
-                className="w-full h-[50px] sm:h-[60px] md:h-[70px] rounded-[20px] md:rounded-[30px] border border-white px-[20px] md:px-[26px] bg-transparent text-white placeholder-white "
+                className="w-full font-inter h-[50px] sm:h-[60px] md:h-[70px] rounded-[20px] md:rounded-[30px] border border-white px-[20px] md:px-[26px] bg-transparent text-white placeholder-white "
                 required=""
               />
               <input
                 type="tel"
                 placeholder="(654) 825-4655"
-                className="w-full h-[50px] sm:h-[60px] md:h-[70px] rounded-[20px] md:rounded-[30px] border border-white px-[20px] md:px-[26px] bg-transparent text-white placeholder-white "
+                className="w-full h-[50px] font-inter sm:h-[60px] md:h-[70px] rounded-[20px] md:rounded-[30px] border border-white px-[20px] md:px-[26px] bg-transparent text-white placeholder-white "
               />
               <textarea
                 placeholder="Write your Message here..."
-                className="w-full h-[80px] sm:h-[100px] md:h-[119px] rounded-[20px] md:rounded-[30px] border border-white px-[20px] md:px-[25px] py-4 md:py-6 bg-transparent text-white placeholder-white "
+                className="w-full h-[80px] sm:h-[100px]  font-inter md:h-[119px] rounded-[20px] md:rounded-[30px] border border-white px-[20px] md:px-[25px] py-4 md:py-6 bg-transparent text-white placeholder-white "
                 rows={4}
                 defaultValue={""}
               />
               <button
                 type="submit"
-                className="w-full h-[40px] sm:h-[50px] md:h-[60px] rounded-[20px] md:rounded-[30px] py-[10px] sm:py-[14px] md:py-[18px] bg-[#22A8C6] text-white text-[16px] sm:text-[18px] md:text-[20px] "
+                className="w-full font-fixture h-[40px] sm:h-[50px] md:h-[60px] rounded-[20px] md:rounded-[30px] py-[10px] sm:py-[14px] md:py-[18px] bg-[#22A8C6] text-white text-[16px] sm:text-[18px] md:text-[20px] "
               >
                 Submit
               </button>

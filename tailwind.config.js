@@ -20,6 +20,8 @@ module.exports = {
       fontFamily: {
         fixture: ['var(--font-fixture)'], 
         poppins: ['var(--font-poppins)'],
+        rethinkSans: ['var(--font-rethinkSans)'],
+        inter: ['var(--font-inter)'],
       },
       borderWidth: ['active'],
       colors: {

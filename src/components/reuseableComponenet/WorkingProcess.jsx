@@ -12,10 +12,9 @@ const WorkingProcess = () => {
     <Container>
       <div className="px-4  flex justify-between items-center flex-col md:flex-row gap-4 py-10 md:py-20">
         <div className="w-full">
-          <h2 className="text-[22px] pb-5 Fixture md:text-[49.02px] mb-4 text-left  text-black leading-[55px] md:leading-[49px] mt-8 md:mt-10 w-full ">
+          <h2 className="text-[30.02px]  font-fixture pb-5 Fixture md:text-[30.02px] mb-4 text-left  text-black leading-[55px] md:leading-[49px] mt-8 md:mt-10 w-full ">
             <span
-              className="
-      Fixture flex items-start justify-start md:leading-8"
+              className="font-fixture flex items-start justify-start md:leading-8 text-[30.02px] font-semibold leading-[55px] tracking-[-0.04em] text-left"
             >
               Our high-quality
               <svg
@@ -34,7 +33,7 @@ const WorkingProcess = () => {
             </span>
             working processes
           </h2>
-          <p className="text-[#000102] pr-10 text-start text-[14px] sm:text-[18px] leading-[24px] sm:leading-[35.54px]">
+          <p className="text-[#000102] font-poppins pr-10 text-start text-[14px] sm:text-[18px] leading-[24px] sm:leading-[35.54px]">
             Here are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look even slightly
@@ -52,17 +51,17 @@ const WorkingProcess = () => {
               <AccordionTrigger>
                 <>
                   <div className="flex justify-start items-center gap-2">
-                    <div className="bg-black text-[#FAFDFE] text-[25.78px] flex items-center justify-center p-4 rounded-full data-[state=open]:bg-white data-[state=open]:text-[#22A8C6]">
+                    <div className="bg-black font-fixture text-[#FAFDFE] text-[25.78px] flex items-center justify-center p-4 rounded-full data-[state=open]:bg-white data-[state=open]:text-[#22A8C6]">
                       01
                     </div>
-                    <span className="pl-2 text-[18px] sm:text-[30.78px] leading-[24px] sm:leading-[36.93px] tracking-[-0.04em] font-semibold">
+                    <span className="pl-2 font-fixture text-[18px] sm:text-[30.78px] leading-[24px] sm:leading-[36.93px] tracking-[-0.04em] font-semibold">
                       Experts Dedication
                     </span>
                   </div>
                 </>
               </AccordionTrigger>
               <AccordionContent>
-                <div className="pl-20 w-3/4 pb-4 text-[#FAFDFE] text-[14px] sm:text-[16.17px] leading-[24px] sm:leading-[36.37px] font-normal">
+                <div className="pl-20 w-3/4 pb-4 font-poppins text-[#FAFDFE] text-[14px] sm:text-[16.17px] leading-[24px] sm:leading-[36.37px] font-normal">
                   deserunt mollit anim id esSed ut perspiciatis unde omnis iste
                   natus error sit voluptatem.
                 </div>
@@ -76,17 +75,17 @@ const WorkingProcess = () => {
               <AccordionTrigger>
                 <>
                   <div className="flex justify-start items-center gap-2">
-                    <div className=" bg-black text-[#FAFDFE] text-[25.78px]  flex items-center justify-center p-4 rounded-full">
+                    <div className="font-fixture bg-black text-[#FAFDFE] text-[25.78px]  flex items-center justify-center p-4 rounded-full">
                       02
                     </div>
-                    <span className=" pl-2 text-[18px] sm:text-[30.78px] leading-[24px] sm:leading-[36.93px] tracking-[-0.04em] font-semibold">
+                    <span className="font-fixture pl-2 text-[18px] sm:text-[30.78px] leading-[24px] sm:leading-[36.93px] tracking-[-0.04em] font-semibold">
                       Experts Dedication
                     </span>
                   </div>
                 </>
               </AccordionTrigger>
               <AccordionContent>
-                <div className="pl-20   w-3/4 pb-4 text-[#FAFDFE] text-[14px] sm:text-[16.17px] leading-[24px] sm:leading-[36.37px] font-normal">
+                <div className="pl-20 font-poppins  w-3/4 pb-4 text-[#FAFDFE] text-[14px] sm:text-[16.17px] leading-[24px] sm:leading-[36.37px] font-normal">
                   deserunt mollit anim id esSed ut perspiciatis unde omnis iste
                   natus error sit voluptatem.
                 </div>
@@ -99,17 +98,17 @@ const WorkingProcess = () => {
               <AccordionTrigger>
                 <>
                   <div className="flex justify-start items-center gap-2">
-                    <div className=" bg-black text-[#FAFDFE] text-[25.78px]  flex items-center justify-center p-4 rounded-full">
+                    <div className="font-fixture bg-black text-[#FAFDFE] text-[25.78px]  flex items-center justify-center p-4 rounded-full">
                       03
                     </div>
-                    <span className=" pl-2 text-[18px] sm:text-[30.78px] leading-[24px] sm:leading-[36.93px] tracking-[-0.04em] font-semibold">
+                    <span className="font-fixture pl-2 text-[18px] sm:text-[30.78px] leading-[24px] sm:leading-[36.93px] tracking-[-0.04em] font-semibold">
                       Experts Dedication
                     </span>
                   </div>
                 </>
               </AccordionTrigger>
               <AccordionContent>
-                <div className="pl-20   w-3/4 pb-4 text-[#FAFDFE] text-[14px] sm:text-[16.17px] leading-[24px] sm:leading-[36.37px] font-normal">
+                <div className="pl-20 font-poppins w-3/4 pb-4 text-[#FAFDFE] text-[14px] sm:text-[16.17px] leading-[24px] sm:leading-[36.37px] font-normal">
                   deserunt mollit anim id esSed ut perspiciatis unde omnis iste
                   natus error sit voluptatem.
                 </div>

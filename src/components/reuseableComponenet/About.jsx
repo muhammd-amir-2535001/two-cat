@@ -9,7 +9,7 @@ const About = () => {
           {/* Left Side */}
           <div className="flex flex-col items-start justify-center w-full md:w-1/3 h-full mb-8 md:mb-0">
             {/* Section Title */}
-            <div className="text-[22.06px] text-black md:mb-12">
+            <div className="text-[22.06px] text-black md:mb-12 font-normal font-fixture">
               Who We Are
             </div>
             {/* Left Image */}
@@ -49,11 +49,12 @@ const About = () => {
           {/* Center */}
           <div className="flex flex-col items-start justify-center w-full md:w-1/2 h-full px-4 md:px-8">
             {/* Section Heading with Decorative SVG */}
-            <h2 className="text-[22px] md:text-[31px] Fixture font-semibold text-[#000102] mb-4">
-              <span className="flex items-center Fixture">
+            <h2 className="text-[#000102] font-fixture text-[30.02px] md:text-[30.02px] font-semibold leading-[55px] md:leading-[35px] tracking-[-0.04em] mb-4 text-left max-w-3xl w-full">
+              <span className="flex items-center justify-center w-fit font-fixture text-[30.02px] md:text-[30.02px] font-semibold leading-[55px] md:leading-8 tracking-[-0.04em]">
                 About the Two Cat
-                {/* Decorative SVG */}
+
                 <svg
+                  className="ml-4"
                   width={45}
                   height={45}
                   viewBox="0 0 45 45"
@@ -68,8 +69,9 @@ const About = () => {
               </span>
               Designs
             </h2>
+
             {/* Section Description */}
-            <p className="text-[15px] md:text-[17.16px] leading-6 md:leading-8 text-[#000102] mb-4 font-poppins">
+            <p className="text-[15px] md:text-[17.16px] leading-[35.54px] md:leading-8 text-[#000102] mb-4 font-poppins">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
               point of using Lorem Ipsum is that it has a more-or-less normal
@@ -83,13 +85,15 @@ const About = () => {
                   src="/images/arrow_right_alt.png"
                   alt="Arrow Right"
                 />
+
               </div>
+
               {/* Text Content Container */}
               <div className="flex flex-col justify-center">
-                <h3 className="text-lg font-semibold text-[#000102] mb-2 Fixture">
+                <h3 className="text-lg font-semibold text-[#000102] mb-2 font-fixture">
                   Strategy
                 </h3>
-                <p className="text-sm text-[#000102] leading-6 mb-4  font-poppins">
+                <p className="text-sm text-[#000102] leading-[33.09px] mb-4  font-poppins ">
                   deserunt mollit anim id est sed ut perspiciatis unde omnis
                   iste natus error sit voluptatem. mollit anim id est sed ut
                   perspiciatis unde.
@@ -107,10 +111,10 @@ const About = () => {
               </div>
               {/* Text Content Container */}
               <div className="flex flex-col justify-center">
-                <h3 className="text-lg font-semibold text-[#000102] mb-2 Fixture">
+                <h3 className="text-lg font-semibold text-[#000102] mb-2  font-fixture">
                   Efficiency
                 </h3>
-                <p className="text-sm text-[#000102] leading-6 mb-4  font-poppins">
+                <p className="text-sm text-[#000102] leading-[33.09px] mb-4  font-poppins">
                   deserunt mollit anim id est sed ut perspiciatis unde omnis
                   iste natus error sit voluptatem. mollit anim id est sed ut
                   perspiciatis unde.

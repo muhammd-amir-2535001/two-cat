@@ -15,8 +15,8 @@ const OurUsers = () => {
           {/* Text Content */}
           <div className="md:pl-8 lg:pl-0 flex flex-col items-center sm:items-start text-center sm:text-left w-full sm:w-1/2 h-full justify-center">
             {/* Subheading */}
-            <h2 className="text-[22px] md:text-[41px] mb-4  Fixture  font-semibold text-white leading-[49px] mt-8 md:mt-10">
-              <span className="flex fixture items-center justify-center sm:justify-start">
+            <h2 className="text-[22px] md:text-[41px] mb-2  Fixture  font-semibold text-white leading-[49px] mt-8 md:mt-10">
+              <span className="flex font-fixture items-center justify-center sm:justify-start md:text-[49.02px] text-[30.02px] font-semibold leading-[55px] tracking-[-0.04em]">
                 Our Clients
                 <svg
                   width={45}
@@ -35,8 +35,7 @@ const OurUsers = () => {
             </h2>
             {/* Paragraph */}
             <p
-              className="text-[#F8F8F8] text-[18px] font-poppins mt-4 md:mt-6 leading-[32.5px] md:text-[22px]  w-2/3 md:leading-[32.5px] max-w-xl font-poppins 
-       ..."
+              className="text-[#F8F8F8] text-[18px] mt-4 md:mt-6 leading-[32.5px] md:text-[22px]  md:leading-[32.5px] md:max-w-xl max-w-[40%] py-4 font-normal"
             >
               We’ve helped over 200+ startups grow their business around the
               world
