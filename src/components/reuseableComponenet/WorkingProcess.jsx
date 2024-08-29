@@ -55,7 +55,7 @@ const WorkingProcess = () => {
                       01
                     </div>
                     <span className="pl-2 font-fixture text-[18px] sm:text-[30.78px] leading-[24px] sm:leading-[36.93px] tracking-[-0.04em] font-semibold">
-                      Experts Dedication
+                      Experts Dedication   
                     </span>
                   </div>
                 </>
