@@ -39,7 +39,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link href="/">
             <h1 className="text-3xl font-valky text-[#351120] font-bold">
-              <Image src="/images/logo.png" width={100} height={100}/>
+              <Image src="/images/Logo.png" width={100} height={100}/>
             </h1>
           </Link>
         </div>
