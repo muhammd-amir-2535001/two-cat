@@ -8,7 +8,7 @@ const Contact = () => {
       style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10 }}
     >
       <Container>
-        <div className="container flex flex-col lg:py-10 lg:mt-10 md:flex-row md:justify-between sm:mt-6 sm:px-4 items-center">
+        <div className="flex flex-col lg:py-10 lg:mt-10 md:flex-row md:justify-between sm:mt-6 sm:px-2 items-center">
           <main className="flex flex-col items-start justify-center text-left w-full lg:max-w-[50%]">
             <h3 className="text-white Fixture font-semibold text-[8vw] sm:text-[56px] leading-[8vw] sm:leading-[56px] tracking-[-0.82px] mb-[7px]">
               <span>

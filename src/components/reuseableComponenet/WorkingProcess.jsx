@@ -10,7 +10,7 @@ import {
 const WorkingProcess = () => {
   return (
     <Container>
-      <div className="px-4 md:px-0 flex justify-between items-center flex-col md:flex-row gap-4 py-10 md:py-20">
+      <div className="px-4  flex justify-between items-center flex-col md:flex-row gap-4 py-10 md:py-20">
         <div className="w-full">
           <h2 className="text-[22px] pb-5 Fixture md:text-[49.02px] mb-4 text-left  text-black leading-[55px] md:leading-[49px] mt-8 md:mt-10 w-full ">
             <span

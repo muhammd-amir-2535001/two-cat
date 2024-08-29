@@ -18,10 +18,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        valky: ['var(--font-valky)'], 
-        raleway: ['var(--font-raleway)'],
-        ralewayThin: ['var(--font-raleway-thin)'],
-        ralewayLight: ['var(--font-raleway-light)'],
+        fixture: ['var(--font-fixture)'], 
+        poppins: ['var(--font-poppins)'],
       },
       borderWidth: ['active'],
       colors: {

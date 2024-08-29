@@ -11,16 +11,16 @@ const Hero = () => {
   <main className="flex flex-col items-start justify-center text-left w-full max-w-[681px] space-y-4">
     
     <h2
-      className="text-[#22A8C6] font-semibold tracking-[-0.82px] mb-[7px]
-  text-[24px] leading-[28px] sm:text-[28px] sm:leading-[30px] md:text-[30px] md:leading-[34px] lg:text-[36px] lg:leading-[40px] xl:text-[40px] xl:leading-[44px]"
+      className="text-[#22A8C6] font-semibold font-fixture tracking-[-0.82px] mb-[7px]
+  text-[24px] leading-[28px] sm:text-[20px] sm:leading-[30px] md:text-[20px]  xl:leading-[44px]"
     >
       Grow Your Business With
     </h2>
     
     <h3
-      className="text-white font-semibold tracking-[-0.82px] mb-[7px] Fixture
+      className="font-fixture text-white font-semibold tracking-[-0.82px] mb-[7px] Fixture
   
-  text-[32px] leading-[32px] sm:text-[40px] sm:leading-[40px] md:text-[48px] md:leading-[48px] lg:text-[56px] lg:leading-[56px]"
+  text-[32px] leading-[32px] sm:text-[40px] sm:leading-[40px] md:text-[38px] md:leading-[48px]"
     >
       The Best Web Design Company
       <img
@@ -45,7 +45,7 @@ const Hero = () => {
   </main>
 
   <section className="w-full text-center rounded-[40px] py-4 px-6 bg-gray-900/30 border-t-[0.75px] border-b-[0.75px] border-l-[0.75px] border-r-[0px] border-gray-400 backdrop-blur-md mt-10 md:mt-0 ">
-    <h2 className="text-white px-4 py-4 sm:px-8 sm:py-6 md:px-12 md:py-8 lg:px-20 lg:py-10 font-semibold text-[20px] sm:text-[24px] md:text-[28px] lg:text-[30px] leading-[26px] sm:leading-[28px] md:leading-[30px] lg:leading-[30px] tracking-[-0.82px] mb-[7px] Fixture">
+    <h2 className="font-fixture text-white px-4 py-4 sm:px-8 sm:py-6 md:px-12 md:py-8 lg:px-20 lg:py-10 font-semibold text-[20px] sm:text-[24px] md:text-[28px] lg:text-[30px] leading-[26px] sm:leading-[28px] md:leading-[30px] lg:leading-[30px] tracking-[-0.82px] mb-[7px] Fixture">
       Let's Talk About Your Project
     </h2>
     {/* Contact form */}

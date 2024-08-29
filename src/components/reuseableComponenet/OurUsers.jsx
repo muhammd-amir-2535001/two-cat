@@ -13,9 +13,9 @@ const OurUsers = () => {
         <Container>
         <div className=" w-full h-full flex flex-col sm:flex-row items-center justify-between py-10 md:py-20">
           {/* Text Content */}
-          <div className="flex flex-col items-center sm:items-start text-center sm:text-left w-full sm:w-1/2 h-full justify-center">
+          <div className="md:pl-8 lg:pl-0 flex flex-col items-center sm:items-start text-center sm:text-left w-full sm:w-1/2 h-full justify-center">
             {/* Subheading */}
-            <h2 className="text-[22px] md:text-[41px] mb-4  Fixture  font-semibold text-white leading-[49px] mt-8 md:mt-10  ...">
+            <h2 className="text-[22px] md:text-[41px] mb-4  Fixture  font-semibold text-white leading-[49px] mt-8 md:mt-10">
               <span className="flex fixture items-center justify-center sm:justify-start">
                 Our Clients
                 <svg
@@ -43,7 +43,7 @@ const OurUsers = () => {
             </p>
           </div>
           {/* Logos */}
-          <div className="w-full flex flex-wrap  items-center justify-center  gap-4 mt-8 sm:mt-0 h-full">
+          <div className="px-2 md:px-0 w-full flex flex-wrap  items-center justify-center  gap-4 mt-8 sm:mt-0 h-full">
             <img
               src="/images/log-ineer-one.png"
               alt="Logo 1"

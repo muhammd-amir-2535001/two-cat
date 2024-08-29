@@ -3,9 +3,9 @@ import Container from "./Container";
 
 const About = () => {
   return (
-    <section className="relative w-full min-h-screen flex items-center justify-center py-10 md:py-20">
+    <section className="relative w-full  flex items-center justify-center py-10 lg:py-20">
       <Container>
-        <div className="relative container flex flex-col md:flex-row items-center justify-between w-full min-h-screen">
+        <div className="relative px-4 flex flex-col md:flex-row  justify-between w-full">
           {/* Left Side */}
           <div className="flex flex-col items-start justify-center w-full md:w-1/3 h-full mb-8 md:mb-0">
             {/* Section Title */}
@@ -49,7 +49,7 @@ const About = () => {
           {/* Center */}
           <div className="flex flex-col items-start justify-center w-full md:w-1/2 h-full px-4 md:px-8">
             {/* Section Heading with Decorative SVG */}
-            <h2 className="text-[22px] md:text-[41px] Fixture font-semibold text-[#000102] mb-4">
+            <h2 className="text-[22px] md:text-[31px] Fixture font-semibold text-[#000102] mb-4">
               <span className="flex items-center Fixture">
                 About the Two Cat
                 {/* Decorative SVG */}
@@ -76,7 +76,7 @@ const About = () => {
               distribution of letters.
             </p>
             {/* Strategy Section */}
-            <div className="flex justify-center items-start py-5">
+            <div className="flex justify-center items-start">
               {/* Icon Container */}
               <div className="bg-[#22A8C6] w-16 h-10 py-3 px-2 flex items-center justify-center mr-4 rounded-full">
                 <img
@@ -89,7 +89,7 @@ const About = () => {
                 <h3 className="text-lg font-semibold text-[#000102] mb-2 Fixture">
                   Strategy
                 </h3>
-                <p className="text-sm text-[#000102] leading-6 mb-4 py-3 font-poppins">
+                <p className="text-sm text-[#000102] leading-6 mb-4  font-poppins">
                   deserunt mollit anim id est sed ut perspiciatis unde omnis
                   iste natus error sit voluptatem. mollit anim id est sed ut
                   perspiciatis unde.
@@ -97,7 +97,7 @@ const About = () => {
               </div>
             </div>
             {/* Efficiency Section */}
-            <div className="flex justify-center items-start py-5">
+            <div className="flex justify-center items-start ">
               {/* Icon Container */}
               <div className="bg-[#22A8C6] w-16 h-10 py-3 px-2 flex items-center justify-center mr-4 rounded-full">
                 <img
@@ -110,7 +110,7 @@ const About = () => {
                 <h3 className="text-lg font-semibold text-[#000102] mb-2 Fixture">
                   Efficiency
                 </h3>
-                <p className="text-sm text-[#000102] leading-6 mb-4 py-3 font-poppins">
+                <p className="text-sm text-[#000102] leading-6 mb-4  font-poppins">
                   deserunt mollit anim id est sed ut perspiciatis unde omnis
                   iste natus error sit voluptatem. mollit anim id est sed ut
                   perspiciatis unde.
@@ -119,7 +119,7 @@ const About = () => {
             </div>
           </div>
           {/* Right Side */}
-          <div className="flex w-full md:w-1/3 h-full justify-center items-center">
+          <div className="flex w-full md:w-1/2 h-full justify-center items-center">
             {/* Right Image */}
             <img
               src="/images/Rectangle-right.png"

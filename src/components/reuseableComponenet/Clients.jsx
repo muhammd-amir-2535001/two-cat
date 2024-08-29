@@ -176,8 +176,8 @@ const Clients = () => {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="top-[7rem] left-[130px]"/>
-      <CarouselNext className="top-[7rem] left-[400px]"/>
+      <CarouselPrevious className="lg:top-[7rem] lg:left-[130px]"/>
+      <CarouselNext className="lg:top-[7rem] lg:left-[400px]"/>
     </Carousel>
 
       </div>
